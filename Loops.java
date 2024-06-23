@@ -12,5 +12,15 @@ for (int i = 100;i>=0;i--){
     System.out.println(i);
     
 }
+     int n = 0;
+     while(n<=10){
+         n+=1;// incrementation is necessary to avoid infinite loop
+         System.out.println(n);// written after incrementation
+     }
+     do{
+         n+=1;// 11+1 = 12 then prints then checks condition
+        System.out.println(n);//
+     }while(n<=0);
+           
 }
 }
